@@ -1,0 +1,11 @@
+.ipynb_checkpoints
+.vscode
+__pycache__
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+.DS_Store
+build/
+bin/
+
