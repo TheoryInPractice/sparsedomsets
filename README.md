@@ -21,8 +21,9 @@
 
 #### 1. Sparse Dominating Sets
 
-- Input files are available under the `data` directory.
-  - https://example.com
+- Download and unzip the `data` directory.
+  - https://drive.google.com/file/d/1qsuBmxUiPqWtxwmzgfnLVkDwGb5V9CiW/view?usp=sharing
+  - Compressed: 689 MB, Uncompressed: 2.29 GB
 - To run experiments with `Dom-Degree`, `Dom-Ratio`, `Dom-Degree-Plus`, and `Dom-Ratio-Plus`, run the `domset` program with appropriate parameters.
   - `domset <input_path> <radius> <strategy> <seed> <num_threads> <output_path>`
 - To run experiments with `Dom-SGC`, run spacegraphcats to obtain the result.
