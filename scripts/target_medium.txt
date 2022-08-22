@@ -1,0 +1,7 @@
+6015-01/6015-01_s42_k31_c1.gxt
+PSM6XBSE/PSM6XBSE_s42_k31_c1.gxt
+HSMA33IE/HSMA33IE_s42_k31_c1.gxt
+ca-HepPh/ca-HepPh_s0_k0_c1.gxt
+ca-AstroPh/ca-AstroPh_s0_k0_c1.gxt
+email-enron-large/email-enron-large_s0_k0_c1.gxt
+inf-luxembourg-osm/inf-luxembourg-osm_s0_k0_c1.gxt

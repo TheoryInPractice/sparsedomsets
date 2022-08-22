@@ -1,0 +1,9 @@
+G36383/G36383_s42_k31_c1.gxt
+CSM79HKX/CSM79HKX_s42_k31_c1.gxt
+bgi-MH0078/bgi-MH0078_s42_k31_c1.gxt
+podar/podar_s42_k31_c1.gxt
+hu/hu_s42_k31_c1.gxt
+soc-delicious/soc-delicious_s0_k0_c1.gxt
+soc-flixster/soc-flixster_s0_k0_c1.gxt
+soc-BlogCatalog/soc-BlogCatalog_s0_k0_c1.gxt
+soc-livejournal/soc-livejournal_s0_k0_c1.gxt

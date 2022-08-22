@@ -1,0 +1,15 @@
+p8808mo10/p8808mo10_s42_k31_c1.gxt
+5032-01/5032-01_s42_k31_c1.gxt
+twofoo/twofoo_s42_k31_c1.gxt
+hugebubbles-00020/hugebubbles-00020_s0_k0_c1.gxt
+ca-GrQc/ca-GrQc_s0_k0_c1.gxt
+ca-CondMat/ca-CondMat_s0_k0_c1.gxt
+cs4/cs4_s0_k0_c1.gxt
+cti/cti_s0_k0_c1.gxt
+delaunay-n13/delaunay-n13_s0_k0_c1.gxt
+delaunay-n14/delaunay-n14_s0_k0_c1.gxt
+delaunay-n15/delaunay-n15_s0_k0_c1.gxt
+fe-4elt2/fe-4elt2_s0_k0_c1.gxt
+fe-sphere/fe-sphere_s0_k0_c1.gxt
+t60k/t60k_s0_k0_c1.gxt
+wing-nodal/wing-nodal_s0_k0_c1.gxt

@@ -1,0 +1,120 @@
+#===============================================================================
+#   Layout
+#===============================================================================
+
+layout:
+  title:
+    font:
+      family: "Old Standard TT, serif"
+      size: 32
+      color: black
+  width: 470
+  height: 400
+  margin:
+    l: 0 # left
+    r: 0 # right
+    b: 0 # bottom
+    t: 0 # top
+    pad: 0
+  paper_bgcolor: white
+  plot_bgcolor: white
+
+  #-------------------------------------------------------------------------------
+  #   Legend
+  #-------------------------------------------------------------------------------
+
+  showlegend: False
+
+  #-------------------------------------------------------------------------------
+  #   X-axis
+  #-------------------------------------------------------------------------------
+
+  xaxis:
+    title:
+      # text:
+
+    titlefont:
+      family: "Old Standard TT, serif"
+      size: 24
+      color: black
+
+    tickfont:
+      family: "Old Standard TT, serif"
+      size: 18
+      color: black
+
+    # Sets the axis type. Options: "-" | "linear" | "log" | "date" | "category" | "multicategory"
+    type: "multicategory"
+
+    showgrid: True
+    zeroline: True
+    showline: True
+    showticklabels: True
+    gridcolor: "#bdbdbd"
+    gridwidth: 1
+    zerolinecolor: "#969696"
+    zerolinewidth: 2
+    linecolor: "#636363"
+    linewidth: 2
+
+    tickmode: linear
+
+  #-------------------------------------------------------------------------------
+  #   Y-axis
+  #-------------------------------------------------------------------------------
+
+  yaxis:
+    title:
+      text: "Standard deviation"
+
+    titlefont:
+      family: "Old Standard TT, serif"
+      size: 24
+      color: black
+
+    tickfont:
+      family: "Old Standard TT, serif"
+      size: 18
+      color: black
+
+    # Sets the axis type. Options: "-" | "linear" | "log" | "date" | "category" | "multicategory"
+    type: "log"
+
+    showgrid: True
+    zeroline: True
+    showline: True
+    showticklabels: True
+    gridcolor: "#bdbdbd"
+    gridwidth: 1
+    zerolinecolor: "#969696"
+    zerolinewidth: 2
+    linecolor: "#636363"
+    linewidth: 2
+
+    tickformat: ".1r"
+    dtick: 1
+
+#===============================================================================
+#   Trace Options
+#===============================================================================
+
+traces:
+  default:
+    opacity: 0.8
+    showlegend: False
+    line_color: black
+
+  0:
+    marker:
+      color: "#19d3f3"
+    fillcolor: "#19d3f3"
+
+  1:
+    marker:
+      color: "#ef553b"
+    fillcolor: "#ef553b"
+
+  2:
+    marker:
+      color: "#00cc96"
+    fillcolor: "#00cc96"

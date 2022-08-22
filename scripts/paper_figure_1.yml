@@ -1,0 +1,146 @@
+#===============================================================================
+#   Layout
+#===============================================================================
+
+layout:
+  title:
+    font:
+      family: "Old Standard TT, serif"
+      size: 32
+      color: black
+  width: 600
+  height: 600
+  margin:
+    l: 0 # left
+    r: 0 # right
+    b: 0 # bottom
+    t: 0 # top
+    pad: 0
+  paper_bgcolor: white
+  plot_bgcolor: white
+
+  #-------------------------------------------------------------------------------
+  #   Legend
+  #-------------------------------------------------------------------------------
+
+  showlegend: True
+  legend:
+    borderwidth: 1
+
+    # Options: "right" | "left"
+    xanchor: right
+    x: 0.99
+    # Options: "top" | "bottom"
+    yanchor: bottom
+    y: 0.01
+
+    font:
+      family: "Old Standard TT, serif"
+      size: 18
+      color: black
+
+  #-------------------------------------------------------------------------------
+  #   X-axis
+  #-------------------------------------------------------------------------------
+
+  xaxis:
+    title:
+      text: $\Large{||G^r||}$
+
+    titlefont:
+      family: "Old Standard TT, serif"
+      size: 24
+      color: black
+
+    tickfont:
+      family: "Old Standard TT, serif"
+      size: 18
+      color: black
+
+    # Sets the axis type. Options: "-" | "linear" | "log" | "date" | "category" | "multicategory"
+    type: "log"
+
+    showgrid: True
+    zeroline: True
+    showline: True
+    showticklabels: True
+    gridcolor: "#bdbdbd"
+    gridwidth: 1
+    zerolinecolor: "#969696"
+    zerolinewidth: 2
+    linecolor: "#636363"
+    linewidth: 2
+
+  #-------------------------------------------------------------------------------
+  #   Y-axis
+  #-------------------------------------------------------------------------------
+
+  yaxis:
+    title:
+      text: Running time (sec)
+
+    titlefont:
+      family: "Old Standard TT, serif"
+      size: 24
+      color: black
+
+    tickfont:
+      family: "Old Standard TT, serif"
+      size: 18
+      color: black
+
+    # Sets the axis type. Options: "-" | "linear" | "log" | "date" | "category" | "multicategory"
+    type: "log"
+
+    showgrid: True
+    zeroline: True
+    showline: True
+    showticklabels: True
+    gridcolor: "#bdbdbd"
+    gridwidth: 1
+    zerolinecolor: "#969696"
+    zerolinewidth: 2
+    linecolor: "#636363"
+    linewidth: 2
+
+    tickformat: '.1r'
+    tickangle: 0
+
+#===============================================================================
+#   Trace Options
+#===============================================================================
+
+traces:
+  default:
+    mode: markers
+    opacity: 0.8
+    marker:
+      size: 7
+      line:
+        width: 1
+        color: "#1f1f1f"
+
+  0:
+    marker:
+      color: "#19d3f3"
+      symbol: "circle"
+
+  1:
+    marker:
+      color: "#ef553b"
+      symbol: "triangle-up"
+
+  2:
+    marker:
+      color: "#00cc96"
+      symbol: "triangle-down"
+
+  3:
+    marker:
+      color: "#ab63fa"
+      symbol: "cross"
+
+  4:
+    marker:
+      color: "#ffa15a"
+      symbol: "x"
